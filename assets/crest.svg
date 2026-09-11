@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emblema UPTC">
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#f2c53d" stroke-width="2"/>
+  <path d="M50 20 L62 35 L58 62 L50 74 L42 62 L38 35 Z" fill="#f2c53d" opacity="0.9"/>
+  <path d="M50 28 L42 40 L46 60 L50 66 L54 60 L58 40 Z" fill="#0c0c0d"/>
+  <path d="M20 46 Q35 38 50 46" fill="none" stroke="#f2c53d" stroke-width="2"/>
+  <path d="M80 46 Q65 38 50 46" fill="none" stroke="#f2c53d" stroke-width="2"/>
+  <text x="50" y="90" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#f2c53d" letter-spacing="1">UPTC</text>
+</svg>
