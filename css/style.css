@@ -179,8 +179,8 @@ a { color: inherit; }
   opacity: 0.95;
 }
 .cover__crest {
-  width: 100%;
-  max-width: 260px;
+  width: 400%;
+  max-width: 800px;
   height: auto;
   object-fit: contain;
 }
