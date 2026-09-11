@@ -21,6 +21,21 @@
   --radius-sm: 6px;
 }
 
+/* ---- Tema claro ---- */
+html[data-theme="light"] {
+  --bg:            #f7f5ef;
+  --bg-panel:      #ffffff;
+  --bg-panel-2:    #f0ede3;
+  --border:        #ddd7c8;
+  --gold:          #a8790f;
+  --gold-dim:      #8a6a1c;
+  --text:          #221f1a;
+  --text-muted:    #5c574c;
+  --text-faint:    #8a8477;
+  --danger:        #c0392b;
+  --ok:            #2e8a5f;
+}
+
 * { box-sizing: border-box; }
 
 html, body {
@@ -30,6 +45,18 @@ html, body {
   color: var(--text);
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
+}
+
+body,
+.topbar,
+.resumen,
+.prueba-academica,
+.card,
+.number-input,
+.btn-tema,
+.btn-secundario,
+.topbar__nav a {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 a { color: inherit; }
@@ -112,6 +139,24 @@ a { color: inherit; }
   color: var(--gold);
   border-color: var(--gold);
   background: rgba(242, 197, 61, 0.08);
+}
+
+.btn-tema {
+  margin-left: 14px;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 9px 16px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  font-family: var(--font-body);
+}
+.btn-tema:hover {
+  color: var(--gold);
+  border-color: var(--gold-dim);
 }
 
 /* ============================================================================
